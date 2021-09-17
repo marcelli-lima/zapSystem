@@ -1,3 +1,8 @@
+.conteiner {
+width: 80%;
+margin: 0 auto
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.header-container {
+  background-color: #03045E;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  color: white;
+}
+
+.container-mensage {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin:auto;
+  width: 50% !important;margin: auto;
+  margin-top: 10px;
+}
+
+.buttom {
+  background-color: #023e8a;
+    border: 0;
+    border-radius: 0.35rem;
+    color: white;
+    height: 3rem;
+    margin: 0 0.35rem;
+    cursor: pointer;
+}
+
+.buttom-formulario { 
+    background-color: #023e8a;
+    border: 0;
+    border-radius: 0.35rem;
+    color: white;
+    height: 3rem;
+    margin: 0 0.35rem;
+    width: 8rem;
+    cursor: pointer;
 }
