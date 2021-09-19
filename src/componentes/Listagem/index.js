@@ -7,9 +7,9 @@ import Swal from 'sweetalert2';
 
 
 const schema = yup.object().shape({
-  channel: yup.string().required("campo é obrigatório").min(3, "nome curto"),
-  trigger: yup.string().required("campo é obrigatório").min(3, "nome curto"),
-  timer: yup.number().required("campo obriga").min(4,"hora valida"),
+  channel: yup.string().required("campo é obrigatório"),
+  trigger: yup.string().required("campo é obrigatório"),
+  timer: yup.string().required("campo obrigatório").min(2,"hora valida"),
   newMessage: yup.string().required("campo obrigatorio").min(4,"muito curto")
 })
 

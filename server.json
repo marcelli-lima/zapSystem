@@ -34,13 +34,6 @@
       "trigger": "fez_pix",
       "timer": "23:23",
       "message": "23232323"
-    },
-    {
-      "channel": "email",
-      "trigger": "abertura_conta",
-      "timer": "1224",
-      "message": "rerere",
-      "id": 1631313726739
     }
   ],
   "channels": [
